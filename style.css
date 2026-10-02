@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f4f8; /* Light blue-grey background */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    color: #333333; /* Dark grey text color */
+    padding: 40px;
+    text-align: center;
+}
+
+/* 2. Style the main heading */
+h1 {
+    color: #0066cc; /* Vibrant blue heading */
+    font-size: 2.5rem;
+}
+
+/* 3. Style the paragraph text */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
