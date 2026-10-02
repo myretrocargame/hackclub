@@ -14,6 +14,7 @@ h1 {
 
 /* 3. Style the paragraph text */
 p {
+    color: forestgreen;
     font-size: 1.2rem;
     line-height: 1.6;
 }
