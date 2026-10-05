@@ -18,3 +18,7 @@ p {
     font-size: 1.2rem;
     line-height: 1.6;
 }
+
+img {
+    width: 1024px;
+}
