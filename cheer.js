@@ -8,7 +8,7 @@
 //   funT.textContent = "It's alive! It's alive!";
 // }
 function click (e){
-    let rect = document.getElementById("board").getBoundingClientRect();
+    let rect = document.getElementById("website").getBoundingClientRect();
     let mouseX = e.clientX - rect.left;
     let mouseY = e.clientY - rect.top;
 }
