@@ -11,4 +11,7 @@ function click (e){
     let rect = document.getElementById("website").getBoundingClientRect();
     let mouseX = e.clientX - rect.left;
     let mouseY = e.clientY - rect.top;
+
+         if (mouseX >= unmute.x && mouseX <= unmute.x + unmute.width && mouseY >= unmute.y && mouseY <= unmute.y + unmute.height) {
+
 }
