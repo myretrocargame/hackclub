@@ -8,7 +8,7 @@
 //   funT.textContent = "It's alive! It's alive!";
 // }
 
-window.onload function {
+window.onload function() {
     document.addEventListener("click", click);
 }
 
