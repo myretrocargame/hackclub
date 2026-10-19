@@ -12,6 +12,7 @@ function click (e){
     let mouseX = e.clientX - rect.left;
     let mouseY = e.clientY - rect.top;
 
-         if (mouseX >= unmute.x && mouseX <= unmute.x + unmute.width && mouseY >= unmute.y && mouseY <= unmute.y + unmute.height) {
-
+    if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
+        
+    }
 }
