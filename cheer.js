@@ -5,5 +5,5 @@ funT.style.textAlign = "center";
 document.body.appendChild(funT);
 
 button.addEventListener(click, function() {
-  zdfg
+  funT.textContent = "It's alive! It's alive!";
 }
