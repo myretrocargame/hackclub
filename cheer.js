@@ -7,8 +7,14 @@
 // button.addEventListener(click, function() {
 //   funT.textContent = "It's alive! It's alive!";
 // }
-let button = button.png
+//let button = button.png
 let context; 
+let button = {
+    x: 100,
+    y: 50,
+    width: 200,
+    height: 50
+};
 
 window.onload = function() {
     document.addEventListener("click", click);
