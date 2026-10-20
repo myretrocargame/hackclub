@@ -17,7 +17,6 @@ let button = {
 };
 
 window.onload = function() {
-    document.addEventListener("click", click);
     let canvas = document.getElementById("website");
     context = canvas.getContext("2d");
     document.addEventListener("click", click)
