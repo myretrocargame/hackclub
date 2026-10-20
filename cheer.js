@@ -8,13 +8,18 @@
 //   funT.textContent = "It's alive! It's alive!";
 // }
 let button = button.png
+let context; 
+
 window.onload = function() {
     document.addEventListener("click", click);
+    let canvas = document.getElementById("website");
+    context = canvas.getContext("2d");
 }
 
 let funT = "This ia a great sentence";
 
 function click (e){
+    
     let rect = document.getElementById("website").getBoundingClientRect();
     let mouseX = e.clientX - rect.left;
     let mouseY = e.clientY - rect.top;
