@@ -12,8 +12,8 @@ let context;
 let button = {
     x: 100,
     y: 50,
-    width: 200,
-    height: 50
+    width: 1000,
+    height: 900
 };
 
 window.onload = function() {
