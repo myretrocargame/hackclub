@@ -24,14 +24,14 @@ function click (e){
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
         if (sentence == 2) {
             context.clearRect(0, 0, 1000, 900);
-            funT = "sentence 2";
+            funT = "The lighting around you makes your skin look particularly orenge.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 500, 300,);
         }
         if (sentence == 1) {
             context.clearRect(0, 0, 1000, 900);
-            funT = "sentence 1";
+            funT = "Your eyebrows look pleasantly simetrical today.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 500, 300,);
