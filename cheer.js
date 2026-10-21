@@ -21,7 +21,8 @@ function click (e){
     let mouseX = e.clientX - rect.left;
     let mouseY = e.clientY - rect.top;
 
-    if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
+    //if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
+    if (mouseX >= imageButton.x && mouseX <= imageButton.x + imageButton.width && mouseY >= imageButton.y && mouseY <= imageButton.y + imageButton.height) {
         if (sentence == 2) {
             context.clearRect(0, 0, 1000, 900);
             funT = "The lighting around you makes your skin look particularly orenge.";
