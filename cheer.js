@@ -33,14 +33,14 @@ function click (e){
 
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
         if (sentence == 1) {
-            let funT = "sentence 1";
+            //funT = "sentence 1";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 700, 100,);
             sentence = 2
         }
         if (sentence == 2) {
-            let funT = "sentence 2";
+            //funT = "sentence 2";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 700, 100,);
