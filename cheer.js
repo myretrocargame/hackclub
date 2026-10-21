@@ -8,6 +8,7 @@
 //   funT.textContent = "It's alive! It's alive!";
 // }
 //let button = button.png
+let sentence =1;
 let context; 
 let button = {
     x: 100,
@@ -31,8 +32,17 @@ function click (e){
     let mouseY = e.clientY - rect.top;
 
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
-        context.fillStyle = "black";
-        context.font="39px sans-serif";
-            context.fillText( funT, 700, 100,);
+        if (sentence == 1) {
+            funT = "sentence 1";
+            context.fillStyle = "black";
+            context.font="39px sans-serif";
+                context.fillText( funT, 700, 100,);
+            sentence = 2
+        }
+        if (sentence == 2) {
+            funT = "sentence 2";
+            context.fillStyle = "black";
+            context.font="39px sans-serif";
+                context.fillText( funT, 700, 100,);
     }
 }
