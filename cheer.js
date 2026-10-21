@@ -27,14 +27,14 @@ function click (e){
             funT = "The lighting around you makes your skin look particularly orenge.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
-                context.fillText( funT, 100, 600,);
+                context.fillText( funT, 100, 750,);
         }
         if (sentence == 1) {
             context.clearRect(0, 0, 1000, 900);
             funT = "Your eyebrows look pleasantly simetrical today.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
-                context.fillText( funT, 100, 600,);
+                context.fillText( funT, 100, 750,);
             sentence = 2;
         }
     }
