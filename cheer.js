@@ -2,7 +2,7 @@ let sentence = 1;
 let context; 
 let button = {
     x: 1000,
-    y: 300,
+    y: 250,
     width: 400,
     height: 400
 };
