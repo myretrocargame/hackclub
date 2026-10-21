@@ -22,7 +22,7 @@ function click (e){
     let mouseY = e.clientY - rect.top;
 
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
-        if (sentence == ) {
+        if (sentence == 2) {
             funT = "sentence 2";
             context.fillStyle = "black";
             context.font="39px sans-serif";
