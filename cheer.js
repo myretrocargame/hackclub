@@ -1,7 +1,7 @@
 let sentence = 1;
 let context; 
 let button = {
-    x: 1000,
+    x: 950,
     y: 250,
     width: 400,
     height: 400
