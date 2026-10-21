@@ -26,13 +26,13 @@ function click (e){
             funT = "sentence 2";
             context.fillStyle = "black";
             context.font="39px sans-serif";
-                context.fillText( funT, 700, 100,);
+                context.fillText( funT, 400, 300,);
         }
         if (sentence == 1) {
             funT = "sentence 1";
             context.fillStyle = "black";
             context.font="39px sans-serif";
-                context.fillText( funT, 700, 100,);
+                context.fillText( funT, 400, 300,);
             sentence = 2;
         }
     }
