@@ -1,13 +1,3 @@
-// let button = document.getElementById('buttonID')
-
-// let funT = document.createElement("p");
-// funT.style.textAlign = "center";
-// document.body.appendChild(funT);
-
-// button.addEventListener(click, function() {
-//   funT.textContent = "It's alive! It's alive!";
-// }
-//let button = button.png
 let sentence = 1;
 let context; 
 let button = {
@@ -44,5 +34,6 @@ function click (e){
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 700, 100,);
+        }
     }
 }
