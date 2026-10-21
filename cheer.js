@@ -1,10 +1,10 @@
 let sentence = 1;
 let context; 
 let button = {
-    x: 700,
+    x: 1000,
     y: 300,
-    width: 100,
-    height: 100
+    width: 400,
+    height: 400
 };
 
 window.onload = function() {
