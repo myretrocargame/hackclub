@@ -30,7 +30,7 @@ function click (e){
             sentence = 2
         }
         if (sentence == 2) {
-            //funT = "sentence 2";
+            funT = "sentence 2";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 700, 100,);
