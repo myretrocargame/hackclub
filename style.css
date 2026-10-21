@@ -27,8 +27,8 @@ img {
     left: 0;
     z-index: -1;
 }
-.custom-image {
+/* .custom-image {
   position: absolute !important;
-  left: 1000px !important;  /* 150px from the very left edge of the browser */
-  top: 300px !important;   /* 100px down from the very top edge of the browser */
-}
+  left: 1000px !important; 
+  top: 300px !important;   
+} */
