@@ -28,7 +28,7 @@ function click (e){
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
         if (sentence == 4) {
             context.clearRect(0, 650, 1300, 900);
-            funT = "Your laptop is beutifuly gary.";
+            funT = "The way you pronounce the word moustache is beutifuly weird.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 50, 750,);
