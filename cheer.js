@@ -1,10 +1,10 @@
 let sentence = 1;
 let context; 
 let button = {
-    x: 950,
-    y: 250,
-    width: 400,
-    height: 400
+    x: 850,
+    y: 150,
+    width: 500,
+    height: 500
 };
 
 let buttonImg = new Image();
