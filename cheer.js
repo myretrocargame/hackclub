@@ -26,9 +26,25 @@ function click (e){
     let mouseY = e.clientY - rect.top;
 
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
+        if (sentence == 4) {
+            context.clearRect(0, 650, 1300, 900);
+            funT = "Your laptop is beutifuly gary.";
+            context.fillStyle = "black";
+            context.font="39px sans-serif";
+                context.fillText( funT, 50, 750,);
+            sentence = 1;
+        }
+        if (sentence == 4) {
+            context.clearRect(0, 650, 1300, 900);
+            funT = "Your prefrontal cortex is beautiful right now.";
+            context.fillStyle = "black";
+            context.font="39px sans-serif";
+                context.fillText( funT, 50, 750,);
+            sentence = sentence + 1;
+        }
         if (sentence == 3) {
             context.clearRect(0, 650, 1300, 900);
-            funT = "Your left elbow looks just splendid.";
+            funT = "Your left elbow looks just splendid today.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 50, 750,);
