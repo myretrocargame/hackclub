@@ -27,7 +27,7 @@ function click (e){
 
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
         if (sentence == 3) {
-            context.clearRect(0, 500, 500, 900);
+            context.clearRect(0, 500, 1000, 900);
             funT = "Your left elbow looks just splendid.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
@@ -35,7 +35,7 @@ function click (e){
             sentence = sentence + 1;
         }
         if (sentence == 2) {
-            context.clearRect(0, 500, 500, 900);
+            context.clearRect(0, 500, 1000, 900);
             funT = "The lighting around you makes your skin look particularly orenge.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
@@ -43,7 +43,7 @@ function click (e){
             sentence = sentence + 1;
         }
         if (sentence == 1) {
-            context.clearRect(0, 500, 500, 900);
+            context.clearRect(0, 500, 1000, 900);
             funT = "Your eyebrows look pleasantly simetrical today.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
