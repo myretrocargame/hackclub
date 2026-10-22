@@ -7,14 +7,14 @@ let button = {
     height: 400
 };
 
-let button = new Image();
-button.src = './button.png';
+let buttonImg = new Image();
+buttonImg.src = './button.png';
 
 window.onload = function() {
     let canvas = document.getElementById("website");
     context = canvas.getContext("2d");
     document.addEventListener("click", click)
-    context.drawImage(button, button.x, button.y, button.width, button.height);
+    context.drawImage(buttonImg, button.x, button.y, button.width, button.height);
 }
 
 let funT = "This ia a great sentence";
