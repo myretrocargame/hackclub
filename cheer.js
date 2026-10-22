@@ -26,7 +26,7 @@ function click (e){
     let mouseY = e.clientY - rect.top;
 
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
-        if (sentence == 4) {
+        if (sentence == 5) {
             context.clearRect(0, 650, 1300, 900);
             funT = "The way you pronounce the word moustache is beutifuly weird.";
             context.fillStyle = "black";
