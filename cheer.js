@@ -8,7 +8,7 @@ let button = {
 };
 
 let button = new Image();
-button.src = 'button.png';
+button.src = './button.png';
 
 window.onload = function() {
     let canvas = document.getElementById("website");
