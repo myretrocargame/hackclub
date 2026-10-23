@@ -69,6 +69,6 @@ function click (e){
                 context.fillText( funT, 50, 750,);
             sentence = 2;
         }
-        fromlasttofirstsentence == fromlasttofirstsentence + 1;
+        fromlasttofirstsentence = fromlasttofirstsentence + 1;
     }
 }
