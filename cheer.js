@@ -1,4 +1,5 @@
 let sentence = 1;
+let fromlasttofirstsentence = 0;
 let context; 
 let button = {
     x: 850,
@@ -57,6 +58,9 @@ function click (e){
                 context.fillText( funT, 50, 750,);
             sentence = sentence + 1;
         }
+        if (fromlasttofirstsentence == 5){
+            sentence = 1;
+        }
         if (sentence == 1) {
             context.clearRect(0, 650, 1300, 900);
             funT = "Your eyebrows look pleasantly simetrical today.";
@@ -65,8 +69,6 @@ function click (e){
                 context.fillText( funT, 50, 750,);
             sentence = 2;
         }
-        if (sentence == 5){
-            sentence = 1;
-        }
+        fromlasttofirstsentence == fromlasttofirstsentence + 1;
     }
 }
