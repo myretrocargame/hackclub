@@ -28,11 +28,10 @@ function click (e){
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
         if (sentence == 5) {
             context.clearRect(0, 650, 1300, 900);
-            funT = "The way you pronounce the word moustache is beutifuly weird.";
+            funT = "The way you pronounce the word moustache is like music to my ears.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 50, 750,);
-            sentence = 1;
         }
         if (sentence == 4) {
             context.clearRect(0, 650, 1300, 900);
@@ -65,6 +64,9 @@ function click (e){
             context.font="39px sans-serif";
                 context.fillText( funT, 50, 750,);
             sentence = 2;
+        }
+        if (sentence == 5){
+            sentence = 1;
         }
     }
 }
