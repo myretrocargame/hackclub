@@ -63,7 +63,7 @@ function click (e){
             fromlasttofirstsentence = 0;
         }
         if (sentence == 1) {
-            context.clearRect(0, 650, 1300, 900);
+            context.clearRect(0, 650, 1400, 900);
             funT = "Your eyebrows look pleasantly simetrical today.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
