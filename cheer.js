@@ -60,6 +60,7 @@ function click (e){
         }
         if (fromlasttofirstsentence == 5){
             sentence = 1;
+            fromlasttofirstsentence = 0;
         }
         if (sentence == 1) {
             context.clearRect(0, 650, 1300, 900);
