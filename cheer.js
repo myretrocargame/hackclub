@@ -51,7 +51,7 @@ function click (e){
         }
         if (sentence == 2) {
             context.clearRect(0, 650, 1300, 900);
-            funT = "The lighting around you makes your skin look particularly orenge.";
+            funT = "The lighting around you makes your skin look particularly orange.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 50, 750,);
