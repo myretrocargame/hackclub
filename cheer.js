@@ -28,14 +28,14 @@ function click (e){
 
     if (mouseX >= button.x && mouseX <= button.x + button.width && mouseY >= button.y && mouseY <= button.y + button.height) {
         if (sentence == 5) {
-            context.clearRect(0, 650, 1300, 900);
+            context.clearRect(0, 650, 1400, 900);
             funT = "The way you pronounce the word moustache is like music to my ears.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
                 context.fillText( funT, 50, 750,);
         }
         if (sentence == 4) {
-            context.clearRect(0, 650, 1300, 900);
+            context.clearRect(0, 650, 1400, 900);
             funT = "Your prefrontal cortex is beautiful right now.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
@@ -43,7 +43,7 @@ function click (e){
             sentence = sentence + 1;
         }
         if (sentence == 3) {
-            context.clearRect(0, 650, 1300, 900);
+            context.clearRect(0, 650, 1400, 900);
             funT = "Your left elbow looks just splendid today.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
@@ -51,7 +51,7 @@ function click (e){
             sentence = sentence + 1;
         }
         if (sentence == 2) {
-            context.clearRect(0, 650, 1300, 900);
+            context.clearRect(0, 650, 1400, 900);
             funT = "The lighting around you makes your skin look particularly orange.";
             context.fillStyle = "black";
             context.font="39px sans-serif";
